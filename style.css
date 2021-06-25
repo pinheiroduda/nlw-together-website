@@ -459,7 +459,6 @@ nav.show div.icon-close {
 /*==== FOOTER ========================== */
 footer {
   background: var(--base-color);
-  padding: 1.5rem;
 }
 
 footer .logo {
@@ -467,9 +466,14 @@ footer .logo {
   margin-bottom: 1.5rem;
 }
 
+/* footer .brand added by me to make a margin in the last part of the site */
+footer .brand {
+  margin-left: 1.5rem;
+}
+
 footer .brand p {
   color: var(--text-color-light);
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
 }
 
 footer i {
@@ -478,7 +482,7 @@ footer i {
 }
 
 footer .social a {
-  margin-right: 2rem;
+  margin-left: 1.5rem;
   transition: 0.3s;
   display: inline-block;
 }
@@ -517,4 +521,7 @@ footer .social a:hover {
 
 /*Responsivo */
 @media (min-width: 992px) {
+  :root {
+    --title-font-size: 2.25rem;
+  }
 }
