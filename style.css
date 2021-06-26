@@ -476,11 +476,6 @@ footer .logo {
   margin-bottom: 1.5rem;
 }
 
-/* footer .brand added by me to make a margin in the last part of the site */
-footer .brand {
-  margin-left: 1.5rem;
-}
-
 footer .brand p {
   color: var(--text-color-light);
   margin-bottom: 0.75rem;
@@ -497,7 +492,6 @@ footer .social {
 }
 
 footer .social a {
-  margin-left: 1.5rem; /*added by me to give some space before social icons */
   transition: 0.3s;
   display: inline-block;
 }
