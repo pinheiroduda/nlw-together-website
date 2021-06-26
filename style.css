@@ -347,7 +347,7 @@ nav.show div.icon-close {
 }
 
 .card i:hover {
-  transform: translateY(-8px);
+  transform: scale(1.2);
 }
 
 .card .title {
